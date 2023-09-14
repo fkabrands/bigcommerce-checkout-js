@@ -85,7 +85,7 @@ const OrderSummaryModal: FunctionComponent<
         onRequestClose={onRequestClose}
     >
         <OrderSummarySection>
-            <OrderSummaryItems displayLineItemsCount={!isUpdatedCartSummayModal} items={nonBundledLineItems} />
+            <OrderSummaryItems displayLineItemsCount={!isUpdatedCartSummayModal} items={nonBundledLineItems} showSeeAll={false} />
         </OrderSummarySection>
         <OrderSummarySection>
             <OrderSummarySubtotals isTaxIncluded={isTaxIncluded} taxes={taxes} {...orderSummarySubtotalsProps} />
@@ -152,7 +152,6 @@ const renderHeader: FunctionComponent<{
         <ModalHeader additionalClassName="cart-modal-title">
             <div>
                 <TranslatedString id="cart.cart_heading" />
-                <div className='cart-heading-subheader'>{subHeaderText}</div>
             </div>
         </ModalHeader>
         <a className="cart-modal-close" href="#" onClick={preventDefault(onRequestClose)}>
@@ -161,6 +160,7 @@ const renderHeader: FunctionComponent<{
             </span>
             <IconCloseWithBorder />
         </a>
+        <div className='cart-heading-subheader'>{subHeaderText}</div>
     </>
 };
 
