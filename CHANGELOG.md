@@ -2,6 +2,83 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.373.0](https://github.com/bigcommerce/checkout-js/compare/v1.372.0...v1.373.0) (2023-09-14)
+
+
+### Features
+
+* **payment:** PI-532 Refactor Adyenv2/v3 for new payment integration API ([3666d8c](https://github.com/bigcommerce/checkout-js/commit/3666d8cbf5517f734a1060623f78d7740c7f7a85))
+
+## [1.372.0](https://github.com/bigcommerce/checkout-js/compare/v1.371.1...v1.372.0) (2023-09-13)
+
+
+### Features
+
+* **payment:** PAYPAL-2632 bump checkout-sdk-js version ([a49a415](https://github.com/bigcommerce/checkout-js/commit/a49a41547265600c093e4207a72e3ddae53791a8))
+
+### [1.371.1](https://github.com/bigcommerce/checkout-js/compare/v1.371.0...v1.371.1) (2023-09-12)
+
+
+### Bug Fixes
+
+* **checkout:** PI-78 fixed credit card issuer mapping for stored diners club cards ([486cc5d](https://github.com/bigcommerce/checkout-js/commit/486cc5d7cf0cd13ab910b58df4d7789260ed5a59))
+
+## [1.371.0](https://github.com/bigcommerce/checkout-js/compare/v1.370.1...v1.371.0) (2023-09-12)
+
+
+### Features
+
+* **checkout:** PI-623 BluesnapDirect APMs via redirect ([71567a4](https://github.com/bigcommerce/checkout-js/commit/71567a40bb87476e9b87f7c14a3520070f40dbc2))
+
+### [1.370.1](https://github.com/bigcommerce/checkout-js/compare/v1.370.0...v1.370.1) (2023-09-11)
+
+## [1.370.0](https://github.com/bigcommerce/checkout-js/compare/v1.369.2...v1.370.0) (2023-09-11)
+
+
+### Features
+
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([a138f88](https://github.com/bigcommerce/checkout-js/commit/a138f88fc200e35aa47495acdff69ac576c4dd7f))
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([44baf69](https://github.com/bigcommerce/checkout-js/commit/44baf69445c95320d960dca9bd9ea0c30379b52b))
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([cab6473](https://github.com/bigcommerce/checkout-js/commit/cab6473d2df9a251ed6525a0694d893ed9a677c7))
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([aa5b344](https://github.com/bigcommerce/checkout-js/commit/aa5b34456fd917dccaaebe701fd8a609ef31b297))
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([a504c48](https://github.com/bigcommerce/checkout-js/commit/a504c4867a63e6de450f996c5eae26dc1859d910))
+
+### [1.369.2](https://github.com/bigcommerce/checkout-js/compare/v1.369.1...v1.369.2) (2023-09-07)
+
+
+### Bug Fixes
+
+* **payment:** PAYPAL-2859 fixed the issue with wallet buttons on top rendering process ([#1489](https://github.com/bigcommerce/checkout-js/issues/1489)) ([f228383](https://github.com/bigcommerce/checkout-js/commit/f228383dbda7a48773ef75a075f7b470af01ff62))
+
+### [1.369.1](https://github.com/bigcommerce/checkout-js/compare/v1.369.0...v1.369.1) (2023-09-06)
+
+## [1.369.0](https://github.com/bigcommerce/checkout-js/compare/v1.368.3...v1.369.0) (2023-09-06)
+
+
+### Features
+
+* **payment:** PAYPAL-2728 create shipping strategy for Braintree AXO ([e908c69](https://github.com/bigcommerce/checkout-js/commit/e908c693d00d9c52d665f2783b55be0899b6c34d))
+
+### [1.368.3](https://github.com/bigcommerce/checkout-js/compare/v1.368.2...v1.368.3) (2023-09-05)
+
+### [1.368.2](https://github.com/bigcommerce/checkout-js/compare/v1.368.1...v1.368.2) (2023-09-05)
+
+### [1.368.1](https://github.com/bigcommerce/checkout-js/compare/v1.368.0...v1.368.1) (2023-09-04)
+
+## [1.368.0](https://github.com/bigcommerce/checkout-js/compare/v1.367.1...v1.368.0) (2023-09-04)
+
+
+### Features
+
+* **checkout:** CHECKOUT-7648 Add automated consent for privacy policy ([#1479](https://github.com/bigcommerce/checkout-js/issues/1479)) ([f3de6af](https://github.com/bigcommerce/checkout-js/commit/f3de6afe3d33bde8d6447106f3ee92aa2a6a74a8))
+
+### [1.367.1](https://github.com/bigcommerce/checkout-js/compare/v1.367.0...v1.367.1) (2023-09-04)
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-5966 Enable multishipping for more than 50 items in cart ([#1474](https://github.com/bigcommerce/checkout-js/issues/1474)) ([be19e47](https://github.com/bigcommerce/checkout-js/commit/be19e47b31b085d1f269ca50d49b3c3086160a3f))
+
 ## [1.367.0](https://github.com/bigcommerce/checkout-js/compare/v1.366.0...v1.367.0) (2023-08-31)
 
 
