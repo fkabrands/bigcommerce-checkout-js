@@ -1,6 +1,6 @@
 .pagetype-checkout {
     .cartDrawer {
-        $header-height: 117px; //todo: hardcoded for now..
+        $header-height: calc(117px - 57px); //todo: hardcoded for now.. 57px is the height of global banner
 
         bottom: unset;
         margin: 0;
